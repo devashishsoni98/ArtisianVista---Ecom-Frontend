@@ -276,14 +276,38 @@ $background: #ecdacb;
 }
 }
 
+
+@media (max-width: 400px){
+  .cloth-block {
+      left: -8.7rem;
+  }
+  }
+
 @media (max-width: 376px){
 .cloth-block {
     left: -8.1rem;
 }
 }
 
+@media (max-width: 360px){
+  .cloth-block {
+      left: -7.6rem;
+  }
+  }
+
+@media (max-width: 340px){
+  .cloth-block {
+      left: -7rem;
+  }
+  }
+
 @media (max-width: 321px){
 .cloth-block {
     left: -6.45rem;
+}
+}
+@media (max-width: 300px){
+.cloth-block {
+    left: -5.6rem;
 }
 }
