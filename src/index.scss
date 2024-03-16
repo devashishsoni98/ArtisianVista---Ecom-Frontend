@@ -36,6 +36,9 @@ $background: #ecdacb;
   margin-right: auto;
   justify-content: flex-start;
 }
+.header-left-active {
+  flex: 0;
+}
 
 .header-center {
   display: flex;
@@ -72,6 +75,7 @@ $background: #ecdacb;
   align-items: center;
   justify-content: center;
   list-style: none;
+  z-index: 999;
 }
 
 .link {
@@ -92,30 +96,6 @@ $background: #ecdacb;
   text-decoration: none;
 }
 
-// .list{
-//     margin: 0 .5rem .5rem 0;
-//     position: relative;
-//     cursor: pointer;
-// }
-
-// .list::after{
-//     content: '';
-//     width: 100%;
-//     height: 4px;
-//     border-radius: 2rem;
-//     background-color: black;
-//     position: absolute;
-//     left: 0;
-//     bottom: -8px;
-//     opacity: 0;
-//     // transition: all 0.2s;
-//     pointer-events: none;
-// }
-
-// .list:hover::after{
-//     opacity: 1;
-// }
-
 @media (max-width: 1040px) {
   .list {
     margin: 0 0;
@@ -131,6 +111,7 @@ $background: #ecdacb;
 .hamburger {
   display: none;
   cursor: pointer;
+  z-index: 999;
 }
 
 .bar {
@@ -286,6 +267,13 @@ $background: #ecdacb;
   .titles > li {
     font-size: 1rem;
   }
+  .logo-temp {
+    width: 6.5rem;
+    margin-right: 0;
+  }
+  .header-left {
+    // flex: 0;
+  }
 }
 
 @media (max-width: 400px) {
@@ -338,6 +326,9 @@ $background: #ecdacb;
 .search-bar-btn:focus {
   outline: none;
 }
+.search-cam {
+  width: -webkit-fill-available;
+}
 
 //<------------------------------------------------------ Footer ----------------------------------------------------->
 
@@ -351,7 +342,7 @@ body {
 }
 #footer {
   background: #f7f7f7;
-  padding: 2rem .5rem;
+  padding: 2rem 0.5rem;
   padding-top: 4rem;
   padding-bottom: 2rem;
   background-image: url(../public/bg-footer.jpg);
@@ -463,32 +454,32 @@ li {
 a {
   text-decoration: none;
 }
-.footer-span{
+.footer-span {
   display: flex;
   align-items: center;
 }
-.footer-icon{
-  margin-right: .4rem;
+.footer-icon {
+  margin-right: 0.4rem;
 }
-.footer-span-last{
+.footer-span-last {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1rem;
 }
-.logo-footer{
+.logo-footer {
   max-width: 90%;
 }
-@media(max-width:426px){
-  .logo-footer{
+@media (max-width: 426px) {
+  .logo-footer {
     max-width: 40% !important;
     display: block;
     margin: auto;
   }
-  .address h2{
+  .address h2 {
     margin-top: 1rem;
   }
-  .social-links h2{
+  .social-links h2 {
     margin-top: 1rem;
   }
 }

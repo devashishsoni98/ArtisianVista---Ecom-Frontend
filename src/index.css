@@ -29,6 +29,10 @@
   justify-content: flex-start;
 }
 
+.header-left-active {
+  flex: 0;
+}
+
 .header-center {
   display: flex;
   flex: 1;
@@ -64,6 +68,7 @@
   align-items: center;
   justify-content: center;
   list-style: none;
+  z-index: 999;
 }
 
 .link {
@@ -97,6 +102,7 @@
 .hamburger {
   display: none;
   cursor: pointer;
+  z-index: 999;
 }
 
 .bar {
@@ -247,6 +253,10 @@
   .titles > li {
     font-size: 1rem;
   }
+  .logo-temp {
+    width: 6.5rem;
+    margin-right: 0;
+  }
 }
 @media (max-width: 400px) {
   .cloth-block {
@@ -292,6 +302,10 @@
 
 .search-bar-btn:focus {
   outline: none;
+}
+
+.search-cam {
+  width: -webkit-fill-available;
 }
 
 body {

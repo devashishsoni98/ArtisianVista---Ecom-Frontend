@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import { TbCameraSearch } from "react-icons/tb";
+import Ripples from "react-ripples";
+import { IoCloseSharp } from "react-icons/io5";
 import { MdOutlineLocationOn } from "react-icons/md";
 import { LuUser2 } from "react-icons/lu";
 import { IoBagOutline } from "react-icons/io5";
@@ -13,7 +16,6 @@ import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const toggleMenu = () => {
     setIsActive(!isActive);
@@ -30,35 +32,61 @@ const Navbar = () => {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const handleSearchClick = () => {
+    if (windowWidth < 430) {
+      setIsSearchOpen(!isSearchOpen);
+    }
+  };
+
+  const handleBagClick = () => {
+    setIsSearchOpen(false);
+  };
 
   return (
     <>
       <div className="outer">
         <div className="inner">
           <div className="contain text-2xl">
-            <div className="header-left">
-              <MdOutlineLocationOn className="cursor-pointer icon" />
-            </div>
-            <div className="header-center">
+            <div
+              className={`header-left ${
+                isSearchOpen ? "header-left-active" : ""
+              }`}
+            >
               <img
                 className="logo-temp cursor-pointer"
                 src="temp_logo.png"
                 alt="logo"
               />
             </div>
+            {/* <div className="header-center">
+            </div> */}
             <div className="header-right">
-              {windowWidth > 425 ? (
-                <>
-                  <SearchBar />
-                  <LuUser2 className="cursor-pointer icon" />
-                  <IoBagOutline className="cursor-pointer icon" />
-                </>
-              ) : (
-                <>
-                  <LuUser2 className="cursor-pointer icon" />
-                  <IoBagOutline className="cursor-pointer icon" />
-                </>
+              <SearchBar isOpen={isSearchOpen} onToggle={handleSearchClick} />
+              {windowWidth < 430 && isSearchOpen && (
+                <IoCloseSharp
+                  className="cursor-pointer icon"
+                  onClick={handleBagClick}
+                />
               )}
+              <Ripples>
+                <TbCameraSearch className="cursor-pointer icon" />
+              </Ripples>
+              <LuUser2 className="cursor-pointer icon" />
+              <IoBagOutline
+                className="cursor-pointer icon"
+                onClick={handleBagClick}
+              />
             </div>
 
             {/* <div className="header-right">
