@@ -1,6 +1,5 @@
-import React, { useState } from "react";
-import { CiLocationOn } from "react-icons/ci";
-import { IoSearchOutline } from "react-icons/io5";
+import React, { useState, useEffect } from "react";
+import { MdOutlineLocationOn } from "react-icons/md";
 import { LuUser2 } from "react-icons/lu";
 import { IoBagOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -10,22 +9,27 @@ import Grocery from "./hover-blocks/Grocery";
 import Electronics from "./hover-blocks/Electronics";
 import Stationary from "./hover-blocks/Stationary";
 import Appliances from "./hover-blocks/Appliances";
+import SearchBar from "./SearchBar";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
-  const [isClothActive, setIsClothActive] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   const toggleMenu = () => {
     setIsActive(!isActive);
   };
 
-  const toggleClothMenu = () => {
-    setIsClothActive((prevState) => !prevState);
-  };
-
   const closeMenu = () => {
     setIsActive(false);
   };
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   return (
     <>
@@ -33,7 +37,7 @@ const Navbar = () => {
         <div className="inner">
           <div className="contain text-2xl">
             <div className="header-left">
-              <CiLocationOn className="cursor-pointer icon" />
+              <MdOutlineLocationOn className="cursor-pointer icon" />
             </div>
             <div className="header-center">
               <img
@@ -43,16 +47,25 @@ const Navbar = () => {
               />
             </div>
             <div className="header-right">
-              <input
-                className="form-control form-control-sm ml-3 w-75"
-                type="text"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <IoSearchOutline className="cursor-pointer icon" />
+              {windowWidth > 425 ? (
+                <>
+                  <SearchBar />
+                  <LuUser2 className="cursor-pointer icon" />
+                  <IoBagOutline className="cursor-pointer icon" />
+                </>
+              ) : (
+                <>
+                  <LuUser2 className="cursor-pointer icon" />
+                  <IoBagOutline className="cursor-pointer icon" />
+                </>
+              )}
+            </div>
+
+            {/* <div className="header-right">
+              {windowWidth > 425 && <SearchBar />}
               <LuUser2 className="cursor-pointer icon" />
               <IoBagOutline className="cursor-pointer icon" />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
@@ -66,15 +79,15 @@ const Navbar = () => {
 
           <Clothing />
 
-          <Footwear/>
+          <Footwear />
 
-          <Grocery/>
+          <Grocery />
 
-          <Electronics/>
+          <Electronics />
 
-          <Stationary/>
+          <Stationary />
 
-          <Appliances/>
+          <Appliances />
 
           <li className="list" onClick={closeMenu}>
             <Link to="/about" className="link">
