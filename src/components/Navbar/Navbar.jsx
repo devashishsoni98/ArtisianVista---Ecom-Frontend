@@ -79,21 +79,19 @@ const Navbar = () => {
                   onClick={handleBagClick}
                 />
               )}
-              <Ripples>
+              <Ripples className="ripples">
                 <TbCameraSearch className="cursor-pointer icon" />
               </Ripples>
+              <Ripples className="ripples">
               <LuUser2 className="cursor-pointer icon" />
+              </Ripples>
+              <Ripples className="ripples">
               <IoBagOutline
                 className="cursor-pointer icon"
                 onClick={handleBagClick}
-              />
+                />
+              </Ripples>
             </div>
-
-            {/* <div className="header-right">
-              {windowWidth > 425 && <SearchBar />}
-              <LuUser2 className="cursor-pointer icon" />
-              <IoBagOutline className="cursor-pointer icon" />
-            </div> */}
           </div>
         </div>
       </div>
