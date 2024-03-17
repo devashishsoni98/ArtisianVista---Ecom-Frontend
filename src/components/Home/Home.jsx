@@ -107,6 +107,61 @@ const Home = () => {
             <div className="divider"></div>
           </div>
         </div>
+
+        <div className="section">
+          <div className="home-cat-container">
+            <div>
+              <h2 className="h-c-h2">
+                ArtisianVista Categories
+              </h2>
+              <div>
+                <div className="categories-list">
+                  <div className="h-cat-item">
+                    <Link to="/" className="h-cat-link">
+                      <img src="electronics.avif" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Electronics</div>
+                    </Link>
+                  </div>
+                  <div className="h-cat-item">
+                    <Link to="/" className="h-cat-link">
+                      <img src="appliances.jpg" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Appliances</div>
+                    </Link>
+                  </div>
+                  <div className="h-cat-item">
+                    <Link to="/" className="h-cat-link">
+                      <img src="grocery.jpg" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Grocery</div>
+                    </Link>
+                  </div>
+                  <div className="h-cat-item">
+                    <Link to="/" className="h-cat-link">
+                      <img src="clothes.jpg" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Clothing</div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section discount-section">
+          <div className="grid-halves discount">
+            <div className="discount-left">
+              <div className="column-large">
+                <h2 className="col-lar-h2">
+                  ArtisianVista Cyber Week 40% Discount
+                </h2>
+                <Link to="/" className="btn-3">
+                Shop now →
+                </Link>
+              </div>
+            </div>
+            <img className="h-discount-img" src="dis-img.jpg" alt="image" />
+          </div>
+        </div>
+
       </div>
     </>
   );
