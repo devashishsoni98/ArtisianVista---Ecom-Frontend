@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
+import ProductItem from "../Products/productItem";
 
 const Home = () => {
   return (
@@ -30,7 +31,7 @@ const Home = () => {
                 </h1>
               </div>
 
-              <div className="home-cards-container">
+              {/* <div className="home-cards-container">
                 <div className="home-grid">
                   <div className="h-c-item">
                     <Link to="/" className="c-link">
@@ -91,6 +92,27 @@ const Home = () => {
                       <div className="c-price">&#8377; 350</div>
                     </Link>
                   </div>
+
+                </div>
+              </div> */}
+              <div class="p-5 sm:p-8">
+                <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
+                  <img src="watch.jpg" />
+                  {/* <img src="clothes1.webp" /> */}
+                  <img src="camera.jpg" />
+                  <img src="mobile.avif" />
+                  <img src="shoes.jpg" />
+                  <img src="clothes2.webp" />
+                  <img src="hoodie.jpg" />
+                  <img src="notebooks.jpg" />
+                  <img src="geyser.jpg" />
+                  <img src="pens.jpg" />
+                  {/* <img src="biscuits.jpg" /> */}
+                  <img src="watch2.webp" />
+                  <img src="braclet.webp" />
+                  <img src="glasses.webp" />
+                  <img src="purse.webp" />
+                  <img src="men-purse.jpg" />
                 </div>
               </div>
             </div>
@@ -111,14 +133,16 @@ const Home = () => {
         <div className="section">
           <div className="home-cat-container">
             <div>
-              <h2 className="h-c-h2">
-                ArtisianVista Categories
-              </h2>
+              <h2 className="h-c-h2">ArtisianVista Categories</h2>
               <div>
                 <div className="categories-list">
                   <div className="h-cat-item">
                     <Link to="/" className="h-cat-link">
-                      <img src="electronics.avif" alt="" className="h-cat-pic" />
+                      <img
+                        src="electronics.avif"
+                        alt=""
+                        className="h-cat-pic"
+                      />
                       <div className="h-cat-title">Electronics</div>
                     </Link>
                   </div>
@@ -154,7 +178,7 @@ const Home = () => {
                   ArtisianVista Cyber Week 40% Discount
                 </h2>
                 <Link to="/" className="btn-3">
-                Shop now →
+                  Shop now →
                 </Link>
               </div>
             </div>
@@ -163,6 +187,7 @@ const Home = () => {
         </div>
 
       </div>
+      <ProductItem/>
     </>
   );
 };

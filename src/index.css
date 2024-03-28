@@ -16,6 +16,10 @@ a:hover {
   color: #000000 !important;
 }
 
+dl, ol, ul {
+  margin: 0;
+}
+
 .inner {
   background-color: #ffffff;
   display: flex;
@@ -951,4 +955,9 @@ a {
   .c-img > img {
     height: 12rem;
   }
+}
+.balh {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
 }/*# sourceMappingURL=index.css.map */
