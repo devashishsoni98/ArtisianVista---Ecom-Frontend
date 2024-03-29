@@ -13,7 +13,7 @@ body {
 
 a:hover {
   text-decoration: none;
-  color: #000000 !important;
+  color: #00296f !important;
 }
 
 dl, ol, ul {
@@ -96,7 +96,7 @@ dl, ol, ul {
   text-align: center;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  color: #000000;
+  color: #00fff9;
   text-decoration: none;
 }
 
@@ -135,7 +135,7 @@ dl, ol, ul {
   height: 3px;
   margin: 5px auto;
   transition: all 0.3s ease-in-out;
-  background-color: #000000;
+  background-color: #00fff9;
 }
 
 @media (max-width: 768px) {
@@ -197,7 +197,7 @@ dl, ol, ul {
   display: none;
   left: 0;
   width: 100dvw;
-  background-color: #ecdacb;
+  background-color: #010029;
   border-radius: 4px;
   padding: 2rem 4.5rem;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -232,6 +232,7 @@ dl, ol, ul {
 
 .titles > li {
   margin: 0.3rem 0;
+  color: #fbf8fd;
   font-size: 1.25rem;
   cursor: pointer;
 }
@@ -533,12 +534,12 @@ a {
 }
 .grid-full {
   display: grid;
+  background-image: linear-gradient(111.4deg, rgb(7, 7, 9) 6.5%, rgb(27, 24, 113) 93.2%);
   height: 100%;
   width: 100%;
 }
 
 .home-container {
-  background-color: #ecdacb;
   padding: 2.4rem;
   min-height: 80vh;
 }
@@ -557,29 +558,29 @@ a {
 }
 
 .home-p-1 {
-  background-color: #ecdacb;
   margin-bottom: 2.5rem;
   font-size: 1.5rem;
+  color: #fbf8fd;
   font-weight: 400;
 }
 
 .home-content > h1 {
   font-size: 5rem;
   padding: 0 15rem;
-  background-color: #ecdacb;
   font-weight: 700;
+  color: #fbf8fd;
   margin-bottom: 3rem;
   line-height: 5rem;
 }
 
 .home-btn {
   padding: 1rem 2.5rem;
-  background-color: #f0b584;
+  background-color: #00fff9;
   border-radius: 3rem;
 }
 .home-btn a {
   text-decoration: none;
-  color: #000000;
+  color: #00296f;
   font-size: 1.2rem;
   font-weight: 400;
 }
@@ -590,7 +591,6 @@ a {
 }
 
 .home-container-2 {
-  background-color: #f0b584;
   min-height: 75vh;
   padding-top: 4rem;
 }
@@ -613,7 +613,10 @@ a {
   letter-spacing: -0.03em;
   margin-bottom: 4rem;
   max-width: 1020px;
-  color: #000000;
+  color: #fbf8fd;
+}
+.grid-2-h > h1 span {
+  color: #00fff9;
 }
 
 .home-cards-container {
@@ -634,14 +637,14 @@ a {
 .h-c-item {
   max-width: 100%;
   border-radius: 0.5rem;
-  background-color: #ecdacb;
+  background-color: #010029;
 }
 
 .c-link {
   max-width: 100%;
   display: inline-block;
   text-decoration: none;
-  color: #000000;
+  color: #00fff9;
 }
 
 .c-img {
@@ -691,8 +694,8 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 200px;
-  background-color: #ebe9e1;
-  color: #000000;
+  background-color: #00fff9;
+  color: #00296f;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
@@ -720,7 +723,7 @@ a {
 
 .h-c-h2 {
   margin-bottom: 2.5rem;
-  color: #000000;
+  color: #fbf8fd;
   font-size: 4rem;
   line-height: 1;
   font-weight: 700;
@@ -728,6 +731,9 @@ a {
   margin-left: auto;
   text-align: center;
   letter-spacing: -0.04em;
+}
+.h-c-h2 span {
+  color: #00fff9;
 }
 
 .categories-list {
@@ -762,13 +768,12 @@ a {
 .h-cat-title {
   font-size: 1rem;
   font-weight: 600;
-  color: #000000;
+  color: #fbf8fd;
 }
 
 .section.discount-section {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #ecdacb;
 }
 
 .grid-halves {
@@ -800,7 +805,7 @@ a {
 
 .col-lar-h2 {
   margin-bottom: 2.5rem;
-  color: #000000;
+  color: #00fff9;
   font-size: 4rem;
   line-height: 1;
   font-weight: 700;
@@ -812,12 +817,12 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 12.5rem;
-  background-color: #f0b584;
+  background-color: #00296f;
   font-size: 1rem;
   line-height: 1.2;
   text-align: center;
   letter-spacing: -0.03em;
-  color: #000000;
+  color: #00fff9;
   font-weight: 600;
   border: 0;
   text-decoration: none;

@@ -26,7 +26,7 @@ const Home = () => {
             <div className="grid-2">
               <div className="grid-2-h">
                 <h1>
-                  ArtisianVista is a fashion platform to shop from a wide range
+                  <span>ArtisianVista</span> is a fashion platform to shop from a wide range
                   of brand products for everyone
                 </h1>
               </div>
@@ -133,7 +133,7 @@ const Home = () => {
         <div className="section">
           <div className="home-cat-container">
             <div>
-              <h2 className="h-c-h2">ArtisianVista Categories</h2>
+              <h2 className="h-c-h2"><span>ArtisianVista</span> Categories</h2>
               <div>
                 <div className="categories-list">
                   <div className="h-cat-item">
@@ -187,7 +187,7 @@ const Home = () => {
         </div>
 
       </div>
-      <ProductItem/>
+      {/* <ProductItem/> */}
     </>
   );
 };

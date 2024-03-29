@@ -2,22 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-$text: #000000;
-$background: #ecdacb;
-$secondary: #f0b584;
-// $accent: #EFBA1A;
+$text: #00fff9;
+$background: #010029;
+$secondary: #00296f;
+$accent: #01629c;
+$secaccent: #00a2c5;
+$primary1: #7d12ff;	
+$secondary1:	#ab20fd;
+$primary:	#200589;	
+$text1: #fbf8fd;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  // background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );
+  // background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+
+  // background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+  // background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+  
+
+  // background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+
+
+
+  // background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+  // background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+
+
+
 }
 body {
   width: 100%;
 }
 a:hover {
   text-decoration: none;
-  color: $text !important;
+  color: $secondary !important;
 }
 dl,ol,ul{
   margin: 0;
@@ -245,6 +266,7 @@ dl,ol,ul{
 }
 .titles > li {
   margin: 0.3rem 0;
+  color: $text1;
   font-size: 1.25rem;
   cursor: pointer;
 }
@@ -526,12 +548,26 @@ a {
 
 .grid-full {
   display: grid;
+    // background-image: radial-gradient( circle 897px at 9% 80.3%,  rgba(55,60,245,1) 0%, rgba(234,161,15,0.90) 100.2% );
+  // background-image: radial-gradient( circle 975px at 2.6% 48.3%,  rgba(0,8,120,1) 0%, rgba(95,184,224,1) 99.7% );
+
+  // background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(100,43,115,1) 0%, rgba(4,0,4,1) 90% );
+  background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+  
+
+  // background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+
+
+
+  // background-image: linear-gradient( 109.6deg,  rgba(254,253,205,1) 11.2%, rgba(163,230,255,1) 91.1% );
+  // background-image: linear-gradient( 83.2deg,  rgba(150,93,233,1) 10.8%, rgba(99,88,238,1) 94.3% );
+
   height: 100%;
   width: 100%;
 }
 
 .home-container {
-  background-color: $background;
+  // background-color: $background;
   padding: 2.4rem;
   min-height: 80vh;
 }
@@ -550,28 +586,30 @@ a {
 }
 
 .home-p-1 {
-  background-color: $background;
+  // background-color: $background;
   margin-bottom: 2.5rem;
   font-size: 1.5rem;
+  color: $text1;
   font-weight: 400;
 }
 
 .home-content > h1 {
   font-size: 5rem;
   padding: 0 15rem;
-  background-color: $background;
+  // background-color: $background;
   font-weight: 700;
+  color: $text1;
   margin-bottom: 3rem;
   line-height: 5rem;
 }
 
 .home-btn {
   padding: 1rem 2.5rem;
-  background-color: $secondary;
+  background-color: $text;
   border-radius: 3rem;
   a {
     text-decoration: none;
-    color: $text;
+    color: $secondary;
     font-size: 1.2rem;
     font-weight: 400;
   }
@@ -583,7 +621,7 @@ a {
 }
 
 .home-container-2 {
-  background-color: $secondary;
+  // background-color: $secondary;
   min-height: 75vh;
   padding-top: 4rem;
 }
@@ -609,7 +647,10 @@ a {
   letter-spacing: -0.03em;
   margin-bottom: 4rem;
   max-width: 1020px;
-  color: $text;
+  color: $text1;
+  span{
+    color: $text;
+  }
 }
 
 .home-cards-container {
@@ -692,8 +733,8 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 200px;
-  background-color: #ebe9e1;
-  color: $text;
+  background-color: $text;
+  color: $secondary;
   font-size: 1.1rem;
   font-weight: 400;
   line-height: 1.2;
@@ -720,7 +761,7 @@ a {
 
 .h-c-h2 {
   margin-bottom: 2.5rem;
-  color: $text;
+  color: $text1;
   font-size: 4rem;
   line-height: 1;
   font-weight: 700;
@@ -728,6 +769,9 @@ a {
   margin-left: auto;
   text-align: center;
   letter-spacing: -0.04em;
+  span{
+    color: $text;
+  }
 }
 
 .categories-list {
@@ -763,13 +807,13 @@ a {
 .h-cat-title {
   font-size: 1rem;
   font-weight: 600;
-  color: $text;
+  color: $text1;
 }
 
 .section.discount-section {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: $background;
+  // background-color: $background;
 }
 
 .grid-halves {
