@@ -28,10 +28,10 @@ const Stationary = () => {
               <div className="flex cloth-block">
                 <div className="flex flex-col titles">
                   <li className="heading"><Link to="/stationarypage" className='nav-heading'>All Stationary</Link></li>
-                  <li>Pens</li>
-                  <li>Pencils</li>
-                  <li>Notebooks</li>
-                  <li>Erasers</li>
+                  <li><Link to="/stationarypage" className='nav-heading'>Pens</Link></li>
+                  <li><Link to="/stationarypage" className='nav-heading'>Pencils</Link></li>
+                  <li><Link to="/stationarypage" className='nav-heading'>Notebooks</Link></li>
+                  <li><Link to="/stationarypage" className='nav-heading'>Erasers</Link></li>
                 </div>
                 <div className="flex cards-container">
                   <Card className="cards">

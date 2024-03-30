@@ -29,11 +29,10 @@ const Clothing = () => {
                 <div className="flex flex-col titles">
                   
                   <li className="heading"><Link className='nav-heading' to="/clothingpage">All Clothes</Link></li>
-                  
-                  <li>Shirts</li>
-                  <li>T-Shirts</li>
-                  <li>Hoodies</li>
-                  <li>Lowers</li>
+                  <li> <Link className='nav-heading' to="/clothingpage">Shirts </Link></li>
+                  <li><Link className='nav-heading' to="/clothingpage">T-Shirts</Link></li>
+                  <li><Link className='nav-heading' to="/clothingpage">Hoodies</Link></li>
+                  <li><Link className='nav-heading' to="/clothingpage">Lowers</Link></li>
                 </div>
                 <div className="flex cards-container">
                   <Card className="cards">

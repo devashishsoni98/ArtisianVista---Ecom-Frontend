@@ -27,11 +27,11 @@ const Grocery = () => {
             <div className={`cloth-content ${isClothActive ? "active" : ""}`}>
               <div className="flex cloth-block">
                 <div className="flex flex-col titles">
-                  <li className="heading"><Link to="/grocerypage" className='nav-heading'>All Groceries</Link></li>
-                  <li>Spices</li>
-                  <li>Pulses</li>
-                  <li>Rice</li>
-                  <li>Biscuits</li>
+                  <li className="heading"><Link to="/grocerypage" className='nav-head'>All Groceries</Link></li>
+                  <li><Link to="/grocerypage" className='nav-head'>Spices</Link></li>
+                  <li><Link to="/grocerypage" className='nav-head'>Pulses</Link></li>
+                  <li><Link to="/grocerypage" className='nav-head'>Rice</Link></li>
+                  <li><Link to="/grocerypage" className='nav-head'>Biscuits</Link></li>
                 </div>
                 <div className="flex cards-container">
                   <Card className="cards">

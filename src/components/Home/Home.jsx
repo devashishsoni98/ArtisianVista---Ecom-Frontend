@@ -12,7 +12,7 @@ const Home = () => {
             <div className="home-p-1">Shop more with ArtisianVista</div>
             <h1>Shop all the best products in one place.</h1>
             <button className="home-btn">
-              <Link to="/">
+              <Link to="/AllProducts">
                 <span className="flex home-btnn">
                   Explore Products
                   <FaArrowRightLong className="home-icon" />
@@ -119,7 +119,7 @@ const Home = () => {
           </div>
           <div className="home-grid more-products">
             <div className="divider"></div>
-            <Link to="/" className="h-btn-2">
+            <Link to="/AllProducts" className="h-btn-2">
               {" "}
               <span className="flex gap-3 home-btnn">
                 {" "}
@@ -139,7 +139,7 @@ const Home = () => {
               <div>
                 <div className="categories-list">
                   <div className="h-cat-item">
-                    <Link to="/" className="h-cat-link">
+                    <Link to="/electronicspage" className="h-cat-link">
                       <img
                         src="electronics.avif"
                         alt=""
@@ -149,21 +149,33 @@ const Home = () => {
                     </Link>
                   </div>
                   <div className="h-cat-item">
-                    <Link to="/" className="h-cat-link">
-                      <img src="appliances.jpg" alt="" className="h-cat-pic" />
-                      <div className="h-cat-title">Appliances</div>
+                    <Link to="/cosmeticspage" className="h-cat-link">
+                      <img src="eyeliner.jpeg" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Cosmetics</div>
                     </Link>
                   </div>
                   <div className="h-cat-item">
-                    <Link to="/" className="h-cat-link">
+                    <Link to="/grocerypage" className="h-cat-link">
                       <img src="grocery.jpg" alt="" className="h-cat-pic" />
                       <div className="h-cat-title">Grocery</div>
                     </Link>
                   </div>
                   <div className="h-cat-item">
-                    <Link to="/" className="h-cat-link">
+                    <Link to="/clothingpage" className="h-cat-link">
                       <img src="clothes.jpg" alt="" className="h-cat-pic" />
                       <div className="h-cat-title">Clothing</div>
+                    </Link>
+                  </div>
+                  <div className="h-cat-item">
+                    <Link to="/footwearpage" className="h-cat-link">
+                      <img src="footwear2.jpg" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Footwear</div>
+                    </Link>
+                  </div>
+                  <div className="h-cat-item">
+                    <Link to="/stationarypage" className="h-cat-link">
+                      <img src="stat.jpeg" alt="" className="h-cat-pic" />
+                      <div className="h-cat-title">Stationary</div>
                     </Link>
                   </div>
                 </div>
@@ -179,7 +191,7 @@ const Home = () => {
                 <h2 className="col-lar-h2">
                   ArtisianVista Cyber Week 40% Discount
                 </h2>
-                <Link to="/" className="home-btnn btn-3 ">
+                <Link to="/allproducts" className="home-btnn btn-3 ">
                   Shop now →
                 </Link>
               </div>

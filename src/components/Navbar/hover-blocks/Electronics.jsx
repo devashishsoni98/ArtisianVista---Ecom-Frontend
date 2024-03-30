@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Card from "react-bootstrap/Card";
+import { Link } from 'react-router-dom';
 
 
 const Electronics = () => {
@@ -26,11 +27,11 @@ const Electronics = () => {
             <div className={`cloth-content ${isClothActive ? "active" : ""}`}>
               <div className="flex cloth-block">
                 <div className="flex flex-col titles">
-                  <li className="heading">All Electronics</li>
-                  <li>Mobiles</li>
-                  <li>Laptops</li>
-                  <li>Computers</li>
-                  <li>Cameras</li>
+                  <li className="heading"><Link className='nav-heading' to="/electronicspage">All Electronics</Link></li>
+                  <li><Link className='nav-heading' to="/electronicspage">Mobiles</Link></li>
+                  <li><Link className='nav-heading' to="/electronicspage">Laptops</Link></li>
+                  <li><Link className='nav-heading' to="/electronicspage">Computers</Link></li>
+                  <li><Link className='nav-heading' to="/electronicspage">Cameras</Link></li>
                 </div>
                 <div className="flex cards-container">
                   <Card className="cards">

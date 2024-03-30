@@ -11,8 +11,9 @@ import Footwear from "./hover-blocks/Footwear";
 import Grocery from "./hover-blocks/Grocery";
 import Electronics from "./hover-blocks/Electronics";
 import Stationary from "./hover-blocks/Stationary";
-import Appliances from "./hover-blocks/Appliances";
+import Appliances from "./hover-blocks/Cosmetics";
 import SearchBar from "./SearchBar";
+import Cosmetics from "./hover-blocks/Cosmetics";
 
 const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
@@ -111,9 +112,9 @@ const Navbar = () => {
 
           <Stationary />
 
-          <Electronics />
+          <Cosmetics />
 
-          <Appliances />
+          <Electronics />
 
           <li className="list" onClick={closeMenu}>
             <Link to="/about" className="link">

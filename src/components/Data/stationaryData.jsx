@@ -3,7 +3,7 @@ const stationaryData = [
       id: "A",
       title: "Sketch pens",
       description: "Unleash your creativity with our exciting 20-shade sketch pen set! Featuring a vibrant range of colors, this set offers everything you need to bring your artistic vision to life. Plus, get a complimentary Glostix for adding a touch of shine to your artwork!",
-      image: "https://images.app.goo.gl/iZwHRjUAJgyEjFW88",
+      image: "https://5.imimg.com/data5/PE/PL/MY-3485190/1-500x500.jpg",
       keyFeatures: [
         "20 Unique Shades: Explore a diverse color palette to create stunning artwork.",
         "High-Quality Pigments: Experience rich color saturation and smooth laydown.",
@@ -15,7 +15,7 @@ const stationaryData = [
       id: "B",
       title: "Blue Ball point pen",
       description: "Keep your thoughts flowing smoothly with our dependable blue ballpoint pen. This everyday essential delivers clean, consistent lines and comfortable writing, making it a perfect choice for note-taking, journaling, or everyday tasks.",
-      image: "https://images.app.goo.gl/efubmdcyUwQpwVoS8",
+      image: "https://m.media-amazon.com/images/I/715a2fpeYbL.jpg",
       keyFeatures: [
         "Classic blue ink for clear and legible writing.",
         "Smooth-flowing ballpoint ink for effortless writing experience.",
@@ -27,7 +27,7 @@ const stationaryData = [
       id: "C",
       title: "Black Ball point pen",
       description: "Never be caught without a writing tool! Our black ballpoint pen is your reliable companion for everyday tasks. This classic design delivers crisp, black lines and a smooth writing experience, making it perfect for anything from note-taking and signing documents to jotting down quick ideas.",
-      image: "https://images.app.goo.gl/W5UmUCiFDu2b2xgc9",
+      image: "https://d3dxkzk9npnkec.cloudfront.net/uploads/images/202301/img_x500_63cf870bdda738-77873329-49884508.jpg",
       keyFeatures: [
         "Bold black ink for clear and professional writing",
         "Smooth-flowing ballpoint ink for effortless writing comfort",
@@ -39,7 +39,7 @@ const stationaryData = [
       id: "D",
       title: "Highlighter pens",
       description: "Highlight your ideas with a touch of softness! This set of 6 pastel highlighters offers a beautiful range of gentle colors that won't overpower your notes. Perfect for studying, bullet journaling, or adding subtle emphasis, these highlighters will brighten your work in style.",
-      image: "https://images.app.goo.gl/9Y3BtBrEVmEJVK1K6",
+      image: "https://m.media-amazon.com/images/I/518H2nju+2L._AC_UF1000,1000_QL80_.jpg",
       keyFeatures: [
         "Set of 6 Pastel Shades: Explore a delightful range of soft colors for gentle highlighting.",
         "Clear Highlighting: Transparent ink allows you to see your text clearly beneath the highlight.",
@@ -51,7 +51,7 @@ const stationaryData = [
       id: "E",
       title: "Notebooks",
       description: "Take your note-taking to the next level with our king-size notebook. Featuring 120 expansive pages, this notebook offers ample space for capturing your thoughts, ideas, and creative projects.",
-      image: "https://images.app.goo.gl/S7XxCih3hohcqS3P9",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaIT1KFBr-BmFHLIQSRVOWyvFQM4NGMD4HHxfyibdZ-TCdTQXVxOS68PBR5Ir-Oe_I7zM&usqp=CAU",
       keyFeatures: [
         "King-Size Pages (24 cm x 18 cm): Enjoy a generous writing surface for detailed notes, diagrams, or mind maps.",
         "120 Pages: Provides ample space for all your notes and projects.",
@@ -62,7 +62,7 @@ const stationaryData = [
       id: "F",
       title: "Oil Pastel colours",
       description: "Elevate your artwork with the dazzling color power of our 24-shade vibrant oil pastels! This set bursts with a spectrum of rich, intensely pigmented colors, designed to ignite your artistic expression and bring your ideas to life with stunning vibrancy.",
-      image: "https://images.app.goo.gl/8gXoN9X9QJeNThhQ7",
+      image: "https://www.sitaramstationers.com/wp-content/uploads/2023/04/MUNGYO-OIL-PASTEL-COLOUR-SET-OF-24A.jpg",
       keyFeatures: [
         "24 Vibrant Shades: Unleash your creativity with a vast palette of bold, eye-catching colors.",
         "Superior Pigmentation: Experience exceptional color saturation for artwork that pops.",
@@ -74,7 +74,7 @@ const stationaryData = [
       id: "G",
       title: "Pencil",
       description: "Sharpen your skills and erase your mistakes with this convenient all-in-one pencil kit! Perfect for students, artists, or anyone who loves the classic feel of a pencil, this kit has everything you need to get started.",
-      image: "https://images.app.goo.gl/53Z4a65RjQXZxDF67",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2yqZhTEe-qURCq_I-H95tDwEsd6_cYW6mMsIs4RQQnQ&s",
       keyFeatures: [
         "Pencil with Eraser: The convenient eraser at the back lets you fix mistakes quickly and easily.",
         "Bonus Sharpener: Keep your pencil sharp throughout its life with the included sharpener.",

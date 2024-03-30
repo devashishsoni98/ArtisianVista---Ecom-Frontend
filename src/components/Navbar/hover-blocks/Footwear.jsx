@@ -28,10 +28,10 @@ const Footwear = () => {
               <div className="flex cloth-block">
                 <div className="flex flex-col titles">
                   <li className="heading"><Link className='nav-heading' to="/footwearpage">All Footwear</Link></li>
-                  <li>Shoes</li>
-                  <li>Sandals</li>
-                  <li>Heels</li>
-                  <li>Running Shoes</li>
+                  <li><Link className='nav-heading' to="/footwearpage">Shoes</Link></li>
+                  <li><Link className='nav-heading' to="/footwearpage">Sandals</Link></li>
+                  <li><Link className='nav-heading' to="/footwearpage">Heels</Link></li>
+                  <li><Link className='nav-heading' to="/footwearpage">Running Shoes</Link></li>
                 </div>
                 <div className="flex cards-container">
                   <Card className="cards">
