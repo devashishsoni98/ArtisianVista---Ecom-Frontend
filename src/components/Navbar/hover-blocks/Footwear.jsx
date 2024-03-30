@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Card from "react-bootstrap/Card";
+import { Link } from 'react-router-dom';
 
 
 const Footwear = () => {
@@ -26,7 +27,7 @@ const Footwear = () => {
             <div className={`cloth-content ${isClothActive ? "active" : ""}`}>
               <div className="flex cloth-block">
                 <div className="flex flex-col titles">
-                  <li className="heading">All Footwear</li>
+                  <li className="heading"><Link className='nav-heading' to="/footwearpage">All Footwear</Link></li>
                   <li>Shoes</li>
                   <li>Sandals</li>
                   <li>Heels</li>

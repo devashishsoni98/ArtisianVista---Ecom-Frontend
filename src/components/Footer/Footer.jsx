@@ -10,20 +10,20 @@ const Footer = () => {
   return (
     <>
       <footer id="footer">
-        <div class="container">
+        <div class="container mt-8">
           <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-3 footer-side">
               <Link to="/">
-                <img src="logo.png" alt="" class="img-fluid logo-footer" />
+                <img src="logo_final.png" alt="" class="img-fluid logo-footer" />
               </Link>{" "}
               <br />
-              <div class="footer-about">
+              {/* <div class="footer-about">
                 <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy text ever since the 1500s,{" "}
                 </p>
-              </div>
+              </div> */}
             </div>
             <div class="col-md-3">
               <div class="useful-link">
@@ -119,7 +119,7 @@ const Footer = () => {
         <div class="copy-right-sec">
           <span className="footer-span-last">
             <LuCopyright />
-            2024 ArtisianVista <a href="#">link here</a>
+            2024 ArtisianVista <a href="#" className="f-span">link here</a>
           </span>
         </div>
       </section>

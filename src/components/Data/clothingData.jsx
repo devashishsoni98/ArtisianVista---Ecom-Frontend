@@ -3,7 +3,7 @@ const clothingData = [
       id: "A",
       title: "Women's Lowers",
       description:
-        "Enhance your comfort and style with our versatile women's lowers. Crafted from cotton blend, these lowers offer a soft, breathable feel that moves effortlessly with you. They provide a functional and flattering fit. Perfect for lounging, yoga, workouts, or everyday wear, these lowers are a must-have for your wardrobe.",
+        "Enhance your comfort and style with our versatile women's lowers. Crafted from cotton blend, these lowers offer a soft, breathable feel that moves effortlessly with you. They provide a functional and flattering fit. Perfect for lounging, yoga, workouts, or everyday wear.",
       image: "https://inwear.in/wp-content/uploads/2020/05/LL-11GRY.jpeg",
       size: ["XS", "S", "L", "XL"],
       color: "grey",
@@ -18,7 +18,7 @@ const clothingData = [
       id: "B",
       title: "Men's Lowers",
       description:
-        "Elevate your comfort and mobility with our men's lowers. Made from cotton blend, these lowers provide a comfortable, breathable feel that moves with you. They offer both functionality and a flattering fit. Ideal for lounging, workouts, or everyday wear, these lowers are a wardrobe essential.",
+        "Elevate your comfort and mobility with our men's lowers. Made from cotton blend, these lowers provide a comfortable, breathable feel that moves with you. They offer both functionality and a flattering fit.",
       image: "https://www.montecarlo.in/cdn/shop/products/223061522-1-38_1.jpg?v=1702638317&width=1100",
       size: ["XS", "S", "L", "XL"],
       color: "black",

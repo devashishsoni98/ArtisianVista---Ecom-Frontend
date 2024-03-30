@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-import ProductItem from "../Products/productItem";
+import ProductItem from "../Products/ClothingPage";
 
 const Home = () => {
   return (
@@ -13,7 +13,7 @@ const Home = () => {
             <h1>Shop all the best products in one place.</h1>
             <button className="home-btn">
               <Link to="/">
-                <span className="flex">
+                <span className="flex home-btnn">
                   Explore Products
                   <FaArrowRightLong className="home-icon" />
                 </span>
@@ -26,8 +26,8 @@ const Home = () => {
             <div className="grid-2">
               <div className="grid-2-h">
                 <h1>
-                  <span>ArtisianVista</span> is a fashion platform to shop from a wide range
-                  of brand products for everyone
+                  <span>ArtisianVista</span> is a fashion platform to shop from
+                  a wide range of brand products for everyone
                 </h1>
               </div>
 
@@ -121,7 +121,7 @@ const Home = () => {
             <div className="divider"></div>
             <Link to="/" className="h-btn-2">
               {" "}
-              <span className="flex gap-3">
+              <span className="flex gap-3 home-btnn">
                 {" "}
                 More Products <FaArrowRightLong className="mp" />{" "}
               </span>
@@ -133,7 +133,9 @@ const Home = () => {
         <div className="section">
           <div className="home-cat-container">
             <div>
-              <h2 className="h-c-h2"><span>ArtisianVista</span> Categories</h2>
+              <h2 className="h-c-h2">
+                <span>ArtisianVista</span> Categories
+              </h2>
               <div>
                 <div className="categories-list">
                   <div className="h-cat-item">
@@ -177,7 +179,7 @@ const Home = () => {
                 <h2 className="col-lar-h2">
                   ArtisianVista Cyber Week 40% Discount
                 </h2>
-                <Link to="/" className="btn-3">
+                <Link to="/" className="home-btnn btn-3 ">
                   Shop now →
                 </Link>
               </div>
@@ -185,7 +187,6 @@ const Home = () => {
             <img className="h-discount-img" src="dis-img.jpg" alt="image" />
           </div>
         </div>
-
       </div>
       {/* <ProductItem/> */}
     </>

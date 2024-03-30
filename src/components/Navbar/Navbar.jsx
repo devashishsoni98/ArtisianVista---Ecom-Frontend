@@ -65,7 +65,7 @@ const Navbar = () => {
             >
               <img
                 className="logo-temp cursor-pointer"
-                src="temp_logo.png"
+                src="logo_final1.png"
                 alt="logo"
               />
             </div>
@@ -109,9 +109,9 @@ const Navbar = () => {
 
           <Grocery />
 
-          <Electronics />
-
           <Stationary />
+
+          <Electronics />
 
           <Appliances />
 
