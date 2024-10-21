@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { TbCameraSearch } from "react-icons/tb";
 import Ripples from "react-ripples";
 import { IoCloseSharp } from "react-icons/io5";
-import { MdOutlineLocationOn } from "react-icons/md";
+// import { MdOutlineLocationOn } from "react-icons/md";
 import { LuUser2 } from "react-icons/lu";
 import { IoBagOutline } from "react-icons/io5";
 import { Link } from "react-router-dom";
@@ -11,7 +11,7 @@ import Footwear from "./hover-blocks/Footwear";
 import Grocery from "./hover-blocks/Grocery";
 import Electronics from "./hover-blocks/Electronics";
 import Stationary from "./hover-blocks/Stationary";
-import Appliances from "./hover-blocks/Cosmetics";
+// import Appliances from "./hover-blocks/Cosmetics";
 import SearchBar from "./SearchBar";
 import Cosmetics from "./hover-blocks/Cosmetics";
 

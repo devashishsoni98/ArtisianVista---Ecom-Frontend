@@ -7,17 +7,17 @@ const Stationary = () => {
     const [isActive, setIsActive] = useState(false);
     const [isClothActive, setIsClothActive] = useState(false);
   
-    const toggleMenu = () => {
-      setIsActive(!isActive);
-    };
+    // const toggleMenu = () => {
+    //   setIsActive(!isActive);
+    // };
   
     const toggleClothMenu = () => {
       setIsClothActive((prevState) => !prevState);
     };
   
-    const closeMenu = () => {
-      setIsActive(false);
-    };
+    // const closeMenu = () => {
+    //   setIsActive(false);
+    // };
   return (
     <>
     <div className="clothing-container">

@@ -1,11 +1,11 @@
 
 
 import React from "react";
-import FootwearData from "../Data/groceryData";
-import { BsSuitHeartFill } from "react-icons/bs";
-import { GiReturnArrow } from "react-icons/gi";
+// import FootwearData from "../Data/groceryData";
+// import { BsSuitHeartFill } from "react-icons/bs";
+// import { GiReturnArrow } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
-import { MdOutlineLabelImportant } from "react-icons/md";
+// import { MdOutlineLabelImportant } from "react-icons/md";
 import '../Products/product.css';
 import stationaryData from "../Data/stationaryData";
 

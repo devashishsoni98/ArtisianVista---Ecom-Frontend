@@ -2,10 +2,10 @@
 
 import React from "react";
 import clothingData from "../Data/clothingData";
-import { BsSuitHeartFill } from "react-icons/bs";
-import { GiReturnArrow } from "react-icons/gi";
+// import { BsSuitHeartFill } from "react-icons/bs";
+// import { GiReturnArrow } from "react-icons/gi";
 import { FaShoppingCart } from "react-icons/fa";
-import { MdOutlineLabelImportant } from "react-icons/md";
+// import { MdOutlineLabelImportant } from "react-icons/md";
 import '../Products/product.css';
 
 const ClothingPage = ({ product }) => {
