@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaArrowRightLong } from "react-icons/fa6";
-import ProductItem from "../Products/ClothingPage";
+// import ProductItem from "../Products/ClothingPage";
 
 const Home = () => {
   return (
@@ -97,22 +97,22 @@ const Home = () => {
               </div> */}
               <div class="p-5 sm:p-8">
                 <div class="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
-                  <img src="watch.jpg" />
+                  <img src="watch.jpg" alt="watch"/>
                   {/* <img src="clothes1.webp" /> */}
-                  <img src="camera.jpg" />
-                  <img src="mobile.avif" />
-                  <img src="shoes.jpg" />
-                  <img src="clothes2.webp" />
-                  <img src="hoodie.jpg" />
-                  <img src="notebooks.jpg" />
-                  <img src="geyser.jpg" />
-                  <img src="pens.jpg" />
+                  <img src="camera.jpg" alt=""/>
+                  <img src="mobile.avif" alt="" />
+                  <img src="shoes.jpg" alt="" />
+                  <img src="clothes2.webp" alt="" />
+                  <img src="hoodie.jpg" alt="" />
+                  <img src="notebooks.jpg" alt="" />
+                  <img src="geyser.jpg" alt="" />
+                  <img src="pens.jpg" alt="" />
                   {/* <img src="biscuits.jpg" /> */}
-                  <img src="watch2.webp" />
-                  <img src="braclet.webp" />
-                  <img src="glasses.webp" />
-                  <img src="purse.webp" />
-                  <img src="men-purse.jpg" />
+                  <img src="watch2.webp" alt="" />
+                  <img src="braclet.webp" alt="" />
+                  <img src="glasses.webp" alt="" />
+                  <img src="purse.webp" alt="" />
+                  <img src="men-purse.jpg" alt="" />
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ const Home = () => {
                 </Link>
               </div> 
             </div>
-            <img className="h-discount-img" src="dis-img.jpg" alt="image" />
+            <img className="h-discount-img" src="dis-img.jpg" alt="" />
           </div>
         </div>
       </div>

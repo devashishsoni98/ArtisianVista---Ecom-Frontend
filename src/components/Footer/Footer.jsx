@@ -94,7 +94,7 @@ const Footer = () => {
                     </span>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="https://www.google.com">
                       <span className="footer-span">
                         <TbArrowBadgeRightFilled className="footer-icon" /> +91
                         90904500112
@@ -102,7 +102,7 @@ const Footer = () => {
                     </a>
                   </li>
                   <li>
-                    <a href="">
+                    <a href="https://www.google.com">
                       <span className="footer-span">
                         <TbArrowBadgeRightFilled className="footer-icon" />{" "}
                         mail@1234567.com
@@ -119,7 +119,7 @@ const Footer = () => {
         <div class="copy-right-sec">
           <span className="footer-span-last">
             <LuCopyright />
-            2024 ArtisianVista <a href="#" className="f-span">link here</a>
+            2024 ArtisianVista <a href="https://www.google.com" className="f-span">link here</a>
           </span>
         </div>
       </section>
