@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Grocery = () => {
-    const [isActive, setIsActive] = useState(false);
+    // const [isActive, setIsActive] = useState(false);
     const [isClothActive, setIsClothActive] = useState(false);
   
     // const toggleMenu = () => {

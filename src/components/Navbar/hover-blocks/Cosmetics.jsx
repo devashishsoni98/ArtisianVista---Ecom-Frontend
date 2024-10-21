@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 
 const Cosmetics = () => {
-    const [isActive, setIsActive] = useState(false);
+    // const [isActive, setIsActive] = useState(false);
     const [isClothActive, setIsClothActive] = useState(false);
   
     // const toggleMenu = () => {
