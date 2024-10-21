@@ -194,7 +194,7 @@ const Home = () => {
                 <Link to="/allproducts" className="home-btnn btn-3 ">
                   Shop now →
                 </Link>
-              </div>
+              </div> 
             </div>
             <img className="h-discount-img" src="dis-img.jpg" alt="image" />
           </div>
